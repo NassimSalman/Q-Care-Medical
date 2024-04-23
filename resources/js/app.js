@@ -1,6 +1,6 @@
 import './bootstrap';
 
-
+// header scroll
 window.addEventListener('DOMContentLoaded', function () {
     var header = document.getElementById('header');
     var scrollImage = document.getElementById('scroll-image');
@@ -22,5 +22,21 @@ window.addEventListener('DOMContentLoaded', function () {
             header.classList.remove('scrolled');
             scrollImage.src = '/images/white-logo.svg';
         }
+    }
+});
+
+
+// departments header click
+const departmentsLink = document.getElementById('departments-box');
+const departmentsElement = document.getElementById('departments');
+let departmentsVisible = false;
+
+departmentsLink.addEventListener('click', () => {
+    if (!departmentsVisible) {
+        departmentsElement.style.display = 'grid';
+        departmentsVisible = true;
+    } else {
+        departmentsElement.style.display = 'none';
+        departmentsVisible = false;
     }
 });
