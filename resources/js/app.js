@@ -27,11 +27,14 @@ window.addEventListener('DOMContentLoaded', function () {
 
 
 // departments header click
+
 const departmentsLink = document.getElementById('departments-box');
 const departmentsElement = document.getElementById('departments');
 let departmentsVisible = false;
 
-departmentsLink.addEventListener('click', () => {
+departmentsLink.addEventListener('click', (event) => {
+    event.preventDefault(); 
+    
     if (!departmentsVisible) {
         departmentsElement.style.display = 'grid';
         departmentsVisible = true;
@@ -40,3 +43,11 @@ departmentsLink.addEventListener('click', () => {
         departmentsVisible = false;
     }
 });
+
+document.body.addEventListener('click', (event) => {
+    if (!departmentsElement.contains(event.target) && event.target !== departmentsLink) {
+        departmentsElement.style.display = 'none';
+        departmentsVisible = false;
+    }
+});
+

@@ -3,8 +3,8 @@
 <div class="bg-white">
     <div class="services">
 
-        <h1> OUR SERVICES </h1>
-        <h2> Specialized Medtech Expertise For Qatar’s Healthcare Needs </h2>
+        <h1 class="home-titles"> OUR SERVICES </h1>
+        <h2 class="home-headers"> Specialized Medtech Expertise For Qatar’s Healthcare Needs </h2>
     </div>
 
     <div class="services-boxes">
