@@ -1,3 +1,4 @@
+<!-- TODO Make the brands carousel -->
 <div class="brands">
     <h1 class="home-titles"> OUR BRANDS </h1>
     <h2 class="home-headers"> Explore Q-Care Premium Medtech Solutions In Qatar </h2>

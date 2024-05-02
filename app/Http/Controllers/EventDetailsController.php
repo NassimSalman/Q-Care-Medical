@@ -4,10 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class DepartmentDetailsController extends Controller
+class EventDetailsController extends Controller
 {
     public function render()
     {
-        return view('pages.department-details');
+        return view('pages.event-details');
     }
 }

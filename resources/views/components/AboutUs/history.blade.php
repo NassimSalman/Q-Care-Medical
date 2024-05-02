@@ -1,3 +1,6 @@
+<!-- TODO Make the content change with respect to the year -->
+<!-- TODO Make each year change color on click -->
+<!-- TODO Fix the bar beside the years -->
 <div class="all-history">
 
     <div>

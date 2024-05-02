@@ -1,5 +1,5 @@
-<!-- TODO Make the hover effect of the boxes -->
-<!-- TODO Make the carousel using fancy apps -->
+<!-- TODO Adjust the image's brightness on hover -->
+<!-- TODO Make the services carousel -->
 <div class="bg-white">
     <div class="services">
 

@@ -1,4 +1,5 @@
-<div class="footer">
+<!-- TODO Add to the input message an arrow -->
+<div id="contact-us" class="footer">
     <img class="image" src="/images/footer-background.png">
     <img class="logo" src="/images/colored-logo.svg">
 
@@ -7,7 +8,7 @@
         <div class="message">
 
             <h2> Join Our Newsletter </h2>
-            <input type="text" placeholder="  Enter your E-mail Address" /> 
+            <input type="text" placeholder="   Enter Your E-mail Address" /> 
 
             <div class="social-media">
                 <img src="/images/facebook-logo.png">

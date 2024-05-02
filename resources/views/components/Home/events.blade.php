@@ -1,3 +1,4 @@
+<!-- TODO Make the events carousel -->
 <div class="all-events">
     <div class="event-head">
         <h1 class="home-titles"> EVENTS</h1>

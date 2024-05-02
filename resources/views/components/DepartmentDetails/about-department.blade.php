@@ -1,6 +1,6 @@
 <div class="about-department">
 
-<div class="lines-image"> <img src="/images/about-lines.png"> </div>
+    <div class="lines-image"> <img src="/images/about-lines.png"> </div>
 
     <div class="department-detail">
         <h1 class="department-titles"> ABOUT MAXILOFACIAL </h1>

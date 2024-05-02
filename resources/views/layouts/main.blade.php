@@ -1,3 +1,8 @@
+<!-- TODO Adjust all fonts of the website to meet the exact fonts -->
+<!-- TODO Make the models for all the webpages -->
+<!-- TODO Make all the webpages responsive -->
+<!-- TODO Let's goooo🔥🔥 -->
+
 <!DOCTYPE html>
 <html lang="en">
 

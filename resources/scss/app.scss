@@ -263,7 +263,6 @@ body {
             }
 
             &::before {
-
                 filter: brightness(70%);
             }
 
@@ -972,6 +971,9 @@ body {
             box-shadow: 0px 0px 30px #00000012;
             border-radius: 20px;
             padding: 15px;
+            display: inline-block;
+            background-size: cover;
+            transition: background-image 0.8s ease;
 
             img {
                 height: 35px;
@@ -994,12 +996,31 @@ body {
                 color: #000000;
                 opacity: 0.6;
                 line-height: 1.5;
-
             }
+
+            &:nth-child(1):hover {
+                background-image: url('/public/images/history-image.png');
+              }
+            
+              &:nth-child(2):hover {
+                background-image: url('/public/images/image-4.png');
+              }
+            
+              &:nth-child(3):hover {
+                background-image: url('/public/images/image-2.png');
+              }
+            
+              &:nth-child(4):hover {
+                background-image: url('/public/images/about-us image.png');
+              }
+            
+              &:nth-child(5):hover {
+                background-image: url('/public/images/image-3.png');
+              }
 
             &:hover {
                 cursor: pointer;
-                background: url('/public/images/about-us image.png') center/cover no-repeat;
+                // background: url('/public/images/about-us image.png') center/cover no-repeat;
 
                 h1,
                 p {
@@ -2058,7 +2079,7 @@ body {
 
         .contact-info {
             display: flex;
-            gap:50px;
+            gap: 50px;
             margin-left: 22%;
 
             h1 {
@@ -2084,11 +2105,12 @@ body {
 
 // contact-us-appointment
 
-.contact-us-appointment{
+.contact-us-appointment {
 
     padding-top: 120px;
     position: absolute;
     margin-top: -300px;
+
     .appointment {
         display: flex;
         flex-direction: row;
@@ -2098,13 +2120,13 @@ body {
             width: 550px;
             position: absolute;
             top: 120px;
-            margin-left: 13.5% ;
+            margin-left: 13.5%;
         }
 
         .appointment-form {
             margin-bottom: 10px;
             margin-left: 95px;
-            
+
             label {
                 display: block;
                 font-weight: bold;
@@ -2119,6 +2141,7 @@ body {
                 border-radius: 6px;
                 box-sizing: border-box;
             }
+
             input[type="textt"] {
                 width: 420px;
                 padding: 8px;
@@ -2175,10 +2198,206 @@ body {
         }
 
     }
-    .location-image{
+
+    .location-image {
         width: 85%;
-        margin-left:6.5%;
+        margin-left: 6.5%;
         border: 1px solid #EDEDEE;
         border-radius: 20px;
+    }
+}
+
+
+//event-details
+
+
+
+.events-details {
+
+    .event-detail {
+        padding-top: 120px;
+    }
+
+    .event-about {
+        display: flex;
+        margin-top: 30px;
+
+        p {
+            position: relative;
+            text-align: left;
+            font: normal normal normal 14px/29px Poppins;
+            letter-spacing: 0px;
+            color: #000000;
+            opacity: 0.6;
+            line-height: 1.5;
+            max-width: 450px;
+            left: 89%;
+        }
+
+        img {
+            width: 400px;
+            height: 300px;
+            margin-left: 23%;
+        }
+    }
+
+    .image1 {
+        img {
+            max-width: 1155px;
+            margin-left: 7%;
+
+        }
+    }
+
+    .more-event-details {
+
+        h1 {
+            margin-top: 50px;
+        }
+
+        p {
+            text-align: left;
+            font: normal normal normal 14px/24px Poppins;
+            letter-spacing: 0px;
+            color: #000000;
+            opacity: 0.6;
+            max-width: 1155px;
+            margin-left: 7%;
+            line-height: 1.5;
+            margin-top: 20px;
+        }
+
+
+        .events-images {
+            display: flex;
+            flex-direction: column;
+            margin-top: 50px;
+
+            .images {
+                display: flex;
+                flex-direction: row;
+                max-width: 1155px;
+                margin-left: 7%;
+                gap: 25px;
+
+            }
+
+            .event-image-4 {
+                max-width: 1155px;
+                margin-left: 7%;
+                margin-top: 25px;
+            }
+        }
+    }
+}
+
+//project-details
+
+.projects-details {
+
+    .project-detail {
+        padding-top: 120px;
+    }
+
+    .project-about {
+        display: flex;
+        margin-top: 30px;
+
+        p {
+            position: relative;
+            text-align: left;
+            font: normal normal normal 14px/29px Poppins;
+            letter-spacing: 0px;
+            color: #000000;
+            opacity: 0.6;
+            line-height: 1.5;
+            max-width: 450px;
+            left: 89%;
+        }
+
+        img {
+            width: 400px;
+            height: 300px;
+            margin-left: 23%;
+        }
+    }
+
+    .image1 {
+        img {
+            max-width: 1155px;
+            margin-left: 7%;
+
+        }
+    }
+
+    .more-project-details {
+        display: flex;
+        gap: 150px;
+
+        .about-project {
+            h1 {
+                margin-top: 50px;
+                margin-bottom: 20px;
+            }
+
+            p {
+                text-align: left;
+                font: normal normal normal 14px/24px Poppins;
+                letter-spacing: 0px;
+                color: #000000;
+                opacity: 0.6;
+                max-width: 700px;
+                line-height: 1.5;
+                margin-left: 90px;
+
+            }
+        }
+    }
+
+    .additional-info {
+        display: flex;
+        gap: 100px;
+        margin-top: 40px;
+
+        h1 {
+            text-align: left;
+            font: normal normal normal 14px/29px Poppins;
+            letter-spacing: 0px;
+            color: #000000;
+            text-transform: capitalize;
+            opacity: 0.6;
+            margin-top: 40px;
+        }
+
+        p {
+            text-align: left;
+            font: normal normal normal 14px/29px Poppins;
+            letter-spacing: 0px;
+            color: #000000;
+            text-transform: capitalize;
+            opacity: 1;
+        }
+    }
+
+    .projects-images {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+        .images {
+            display: flex;
+            flex-direction: row;
+            max-width: 1155px;
+            margin-left: 7%;
+            gap: 25px;
+
+        }
+
+        .project-image-4 {
+            max-width: 1155px;
+            margin-left: 7%;
+            margin-top: 25px;
+        }
     }
 }

@@ -33,3 +33,11 @@ Route::get('/events', function() {
 Route::get('/contact-us', function() {
     return view('pages.contact-us');
 });
+
+Route::get('/event-details', function() {
+    return view('pages.event-details');
+});
+
+Route::get('/project-details', function() {
+    return view('pages.project-details');
+});

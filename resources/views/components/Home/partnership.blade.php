@@ -1,3 +1,4 @@
+<!-- TODO Make the partnership carousel -->
 <div class="partnership">
 
     <h1 class="home-headers"> Partnership</h1>
