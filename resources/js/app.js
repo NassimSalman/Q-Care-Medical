@@ -51,3 +51,18 @@ document.body.addEventListener('click', (event) => {
     }
 });
 
+
+// country flag
+
+var input = document.querySelector("#phone");
+    var iti = window.intlTelInput(input, {
+        separateDialCode: true,
+        utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js"
+    });
+
+    // Function to update flag when input changes
+    input.addEventListener("input", function() {
+        var countryCode = iti.getSelectedCountryData().iso2;
+        var flagContainer = document.getElementById("flag-container");
+        flagContainer.innerHTML = '<i class="flag-icon flag-icon-' + countryCode.toLowerCase() + '"></i>';
+    });

@@ -8,19 +8,19 @@
 
 @section('content')
 
-@include('components.header')
+@include('components.Header.header')
 
-@include('components.about-q-care')
+@include('components.AboutUs.about-q-care')
 
-@include('components.choose-us')
+@include('components.AboutUs.choose-us')
 
-@include('components.our-value')
+@include('components.AboutUs.our-value')
 
-@include('components.history')
+@include('components.AboutUs.history')
 
-@include('components.partnership')
+@include('components.Home.partnership')
 
-@include('components.footer')
+@include('components.Footer.footer')
 
 @endsection
 

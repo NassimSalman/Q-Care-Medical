@@ -2,7 +2,7 @@
 
 @section('head')
     
-    <title> Brand Page </title>
+    <title> Our Work </title>
 
 @endsection
 
@@ -10,11 +10,11 @@
 
 @include('components.Header.header')
 
-@include('components.BrandPage.accu-vein')
+@include('components.OurWork.our-work-main')
 
-@include('components.BrandPage.brand-details')
+@include('components.OurWork.projects')
 
-@include('components.BrandPage.products')
+@include('components.Home.partnership')
 
 @include('components.Footer.footer')
 

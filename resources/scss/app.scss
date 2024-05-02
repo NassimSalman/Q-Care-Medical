@@ -12,6 +12,16 @@
     opacity: 1;
 }
 
+.department-titles {
+    text-align: left;
+    margin-left: 90px;
+    font: normal normal bold 20px/24px Greycliff CF;
+    letter-spacing: 2px;
+    color: #FF8300;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
 .home-headers {
     text-align: left;
     margin-left: 90px;
@@ -1132,6 +1142,7 @@ body {
 // brand-details
 .brand-details {
     position: relative;
+    margin-bottom: 450px;
 
     .lines-image {
         position: relative;
@@ -1181,14 +1192,15 @@ body {
 // products
 
 .products {
-    margin-bottom: 50px ;
+    margin-bottom: 50px;
     margin-top: -390px;
+
     .products-carousel {
 
         display: flex;
         flex-direction: row;
-        gap:15.25vw;
-        
+        gap: 15.25vw;
+
         .box {
             height: 550px;
             width: 500px;
@@ -1224,10 +1236,949 @@ body {
                 letter-spacing: 0px;
                 color: #000000;
                 opacity: 0.6;
-                max-width:450px;
+                max-width: 450px;
                 line-height: 1.5;
                 padding-top: 10px;
             }
         }
+    }
+}
+
+//department-details
+.department-details {
+
+    .department-detail-image {
+
+        .image {
+            position: relative;
+            height: 80%;
+
+
+            img {
+                opacity: 1;
+            }
+        }
+
+        .image {
+            h1 {
+                position: absolute;
+                top: 38%;
+                left: 5%;
+                margin-left: 15px;
+                font: normal bold 70px/119px Greycliff CF;
+                letter-spacing: 0;
+                color: #FFFFFF;
+                opacity: 1;
+                line-height: 1.25;
+                width: 600px;
+            }
+        }
+
+        .orange-image {
+            img {
+                position: absolute;
+                top: 51.90%;
+            }
+        }
+    }
+}
+
+// about-department
+
+.about-department {
+    position: relative;
+
+
+    .lines-image {
+        position: relative;
+
+        img {
+            position: absolute;
+            z-index: -1;
+            padding-left: 10px;
+            top: -200px;
+        }
+    }
+
+    .department-detail {
+        position: absolute;
+        top: 100px;
+        left: 0;
+
+        h1 {
+            position: relative;
+            top: 0;
+        }
+
+        h2 {
+            position: relative;
+            top: 0;
+            margin-left: 90px;
+        }
+    }
+
+    .department-about {
+        p {
+            max-width: 450px;
+            margin-left: 57.5%;
+            padding-top: 10%;
+            text-align: left;
+            font: normal normal normal 14px/29px Poppins;
+            letter-spacing: 0px;
+            color: #000000;
+            opacity: 0.6;
+            line-height: 1.5;
+        }
+    }
+
+    .image {
+        img {
+            width: 1160px;
+            height: 450px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+            margin-left: 92px;
+        }
+    }
+}
+
+//department-product
+
+.department-products {
+
+    margin-top: 5%;
+
+    .products-carousel {
+
+        display: flex;
+        flex-direction: row;
+        gap: 15.25vw;
+
+        .box {
+            height: 550px;
+            width: 500px;
+            box-shadow: 0px 0px 30px #00000012;
+            margin-left: 92px;
+            margin-top: 25px;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+
+            .image-logo {
+                position: absolute;
+                top: 0;
+                left: 0;
+                padding: 20px;
+                max-height: 100%;
+                max-width: 100%;
+
+            }
+
+            .product {
+                position: relative;
+                right: 100px;
+                top: 30px;
+
+            }
+        }
+
+        .product-description {
+            padding-top: 20%;
+
+            h1 {
+                text-align: left;
+                font: normal normal bold 30px/70px Greycliff CF;
+                letter-spacing: 0px;
+                color: #000000;
+                text-transform: capitalize;
+                opacity: 1;
+                line-height: 1.5;
+            }
+
+            p {
+                text-align: left;
+                font: normal normal normal 14px/30px Poppins;
+                letter-spacing: 0px;
+                color: #000000;
+                opacity: 0.6;
+                max-width: 450px;
+                line-height: 1.5;
+                padding-top: 10px;
+            }
+        }
+    }
+}
+
+// book-appointment
+
+.appointment {
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    .book-appointment {
+        display: flex;
+        justify-content: center;
+
+        .box {
+            width: 1160px;
+            height: 220px;
+            background: #EDEDEE 0% 0% no-repeat padding-box;
+            border-radius: 30px;
+            opacity: 1;
+            margin-right: 20px;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            align-items: center;
+            gap: 100px;
+            padding: 40px;
+
+            .jhonny {
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                align-items: center;
+
+                .description {
+                    margin-left: 40px;
+                }
+
+                img {
+                    height: 150px;
+                    width: 150px;
+                }
+
+                h2 {
+                    background-color: white;
+                    border: 1px solid #A7A9AC;
+                    border-radius: 18px;
+                    width: 80px;
+                    text-align: center;
+                    font: normal normal normal 14px/29px Poppins;
+                    letter-spacing: 0px;
+                    color: #000000;
+                    opacity: 0.6;
+                }
+
+                h1 {
+                    text-align: left;
+                    font: normal normal bold 25px/45px Greycliff CF;
+                    letter-spacing: 0px;
+                    color: #000000;
+                    text-transform: capitalize;
+                    opacity: 1;
+                }
+            }
+
+            .joelle {
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                align-items: center;
+
+                .description {
+                    margin-left: 40px;
+                }
+
+                img {
+                    height: 150px;
+                    width: 150px;
+                }
+
+                h1 {
+                    text-align: left;
+                    font: normal normal bold 25px/45px Greycliff CF;
+                    letter-spacing: 0px;
+                    color: #000000;
+                    text-transform: capitalize;
+                    opacity: 1;
+                }
+
+                h2 {
+                    background-color: white;
+                    border: 1px solid #A7A9AC;
+                    border-radius: 18px;
+                    width: 80px;
+                    text-align: center;
+                    font: normal normal normal 14px/29px Poppins;
+                    letter-spacing: 0px;
+                    color: #000000;
+                    opacity: 0.6;
+                }
+            }
+
+            .book-button {
+                background: #FF8300;
+                border-radius: 10px;
+                opacity: 1;
+                height: 50px;
+                width: 200px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font: normal normal medium 20px/24px Greycliff CF;
+                letter-spacing: 0px;
+                color: #FFFFFF;
+                text-transform: capitalize;
+                opacity: 1;
+            }
+
+        }
+    }
+}
+
+// white-header
+
+.white-header {
+    #header {
+        @apply flex flex-row justify-between box-border overflow-hidden z-[500] bg-white w-[100vw] h-[60px] fixed text-black;
+        transition: background-color 0.6s ease;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+
+        nav {
+            @apply flex items-center mr-[100px];
+
+            a {
+                @apply mx-4;
+            }
+        }
+
+        .colored-logo {
+            @apply flex items-center ml-[90px];
+        }
+    }
+}
+
+// book-appointment
+
+.appointments {
+    padding-top: 120px;
+
+    .appointment {
+        display: flex;
+        flex-direction: row;
+
+        .appointment-image img {
+            height: 700px;
+            width: 550px;
+            position: absolute;
+            top: 20%;
+            right: 8.5%;
+        }
+
+        .appointment-form {
+            margin-bottom: 10px;
+            margin-left: 95px;
+
+            label {
+                display: block;
+                font-weight: bold;
+                margin-bottom: 5px;
+                margin-top: 20px;
+            }
+
+            input[type="text"] {
+                width: 200px;
+                padding: 8px;
+                border: 1px solid #ccc;
+                border-radius: 6px;
+                box-sizing: border-box;
+            }
+
+            #phone {
+                width: 200px;
+                padding: 8px;
+                border: 1px solid #ccc;
+                border-radius: 6px;
+                box-sizing: border-box;
+            }
+        }
+
+        .first-input {
+            display: flex;
+            gap: 20px;
+
+        }
+
+        select {
+            height: 40px;
+            width: 420px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            height: 100px;
+            width: 420px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            box-sizing: border-box;
+        }
+
+        .submit-button {
+            margin-top: 20px;
+            background: #7F2854 0% 0% no-repeat padding-box;
+            border-radius: 10px;
+            height: 40px;
+            width: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font: normal normal medium 14px/19px Greycliff CF;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+        }
+
+    }
+}
+
+// our-work
+
+.our-work {
+
+
+    .our-work-image {
+
+        .image {
+            position: relative;
+            height: 80%;
+
+
+            img {
+                opacity: 1;
+            }
+        }
+
+        .image {
+            h1 {
+                position: absolute;
+                top: 38%;
+                left: 5%;
+                margin-left: 15px;
+                font: normal bold 70px/119px Greycliff CF;
+                letter-spacing: 0;
+                color: #FFFFFF;
+                opacity: 1;
+                line-height: 1.25;
+                width: 600px;
+            }
+        }
+
+        .purple-image {
+            img {
+                position: absolute;
+                top: 51.90%;
+            }
+        }
+    }
+
+    .our-work-detail {
+        margin-top: 50px;
+    }
+
+    .our-work-about {
+        display: flex;
+        margin-top: 3%;
+
+        p {
+            position: relative;
+            text-align: left;
+            font: normal normal normal 15px/29px Poppins;
+            letter-spacing: 0px;
+            color: #000000;
+            opacity: 0.6;
+            line-height: 1.5;
+            max-width: 450px;
+            left: 89%;
+        }
+
+        img {
+            width: 400px;
+            height: 400px;
+            margin-left: 23%;
+        }
+    }
+}
+
+//projects
+
+.projects {
+    .project-images {
+        display: flex;
+        flex-direction: column;
+        max-width: 1160px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 6.5%;
+        gap: 25px;
+
+        .project-image {
+            position: relative;
+            overflow: hidden;
+            border-radius: 18px;
+
+            &:hover {
+                img {
+                    transform: scale(1.3);
+                }
+            }
+
+            img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                border-radius: 5px;
+                transition: transform 0.8s ease;
+                filter: brightness(80%);
+            }
+
+            .image-info {
+                position: absolute;
+                bottom: 10px;
+                left: 10px;
+                padding: 10px;
+                border-radius: 5px;
+                padding: 20px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 80vw;
+
+                h3 {
+                    margin: 0;
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: white;
+                }
+
+                p {
+                    margin: 5px 0 0 0;
+                    font-size: 14px;
+                    color: white;
+                }
+
+                a {
+                    font-size: 14px;
+                    color: white;
+                    margin-top: 30px;
+                    margin-right: -40px;
+                }
+            }
+        }
+
+
+    }
+
+    .get-in-touch {
+        display: flex;
+        justify-content: center;
+
+        .box {
+
+            width: 1160px;
+            height: 220px;
+            background: #EDEDEE 0% 0% no-repeat padding-box;
+            border-radius: 30px;
+            opacity: 1;
+            margin-right: 20px;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            align-items: center;
+            gap: 45%;
+            padding: 40px;
+
+            .joelle {
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                align-items: center;
+
+
+                .description {
+                    margin-left: 40px;
+                }
+
+                img {
+                    height: 150px;
+                    width: 150px;
+                }
+
+                h1 {
+                    text-align: left;
+                    font: normal normal bold 25px/45px Greycliff CF;
+                    letter-spacing: 0px;
+                    color: #000000;
+                    text-transform: capitalize;
+                    opacity: 1;
+                }
+
+                h2 {
+                    background-color: white;
+                    border: 1px solid #A7A9AC;
+                    border-radius: 18px;
+                    width: 80px;
+                    text-align: center;
+                    font: normal normal normal 14px/29px Poppins;
+                    letter-spacing: 0px;
+                    color: #000000;
+                    opacity: 0.6;
+                }
+
+            }
+
+            .book-button {
+                background: #7F2854;
+                border-radius: 10px;
+                opacity: 1;
+                height: 50px;
+                width: 200px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font: normal normal medium 20px/24px Greycliff CF;
+                letter-spacing: 0px;
+                color: #FFFFFF;
+                text-transform: capitalize;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+//events
+
+
+.events {
+
+
+    .events-image {
+
+        .image {
+            position: relative;
+            height: 80%;
+
+
+            img {
+                opacity: 1;
+            }
+        }
+
+        .image {
+            h1 {
+                position: absolute;
+                top: 38%;
+                left: 5%;
+                margin-left: 15px;
+                font: normal bold 70px/119px Greycliff CF;
+                letter-spacing: 0;
+                color: #FFFFFF;
+                opacity: 1;
+                line-height: 1.25;
+                width: 600px;
+            }
+        }
+
+        .purple-image {
+            img {
+                position: absolute;
+                top: 51.90%;
+            }
+        }
+    }
+
+    .event-detail {
+        margin-top: 50px;
+    }
+
+    .event-about {
+        display: flex;
+        margin-top: 3%;
+
+        p {
+            position: relative;
+            text-align: left;
+            font: normal normal normal 15px/29px Poppins;
+            letter-spacing: 0px;
+            color: #000000;
+            opacity: 0.6;
+            line-height: 1.5;
+            max-width: 450px;
+            left: 89%;
+        }
+
+        img {
+            width: 400px;
+            height: 400px;
+            margin-left: 23%;
+        }
+    }
+
+}
+
+//latest-events
+
+.latest-eve {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+
+    .events {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .box {
+        width: 580px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        border-radius: 20px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 20px 20px 0 0;
+        }
+
+        .content {
+            text-align: left;
+            font: normal normal normal 14px/26px Poppins;
+            letter-spacing: 0px;
+            color: #000000;
+            opacity: 0.6;
+            padding-bottom: 10px;
+        }
+
+        .title {
+            text-align: left;
+            font: normal normal bold 20px/30px Greycliff CF;
+            letter-spacing: 0px;
+            color: #7F2854;
+            text-transform: capitalize;
+            opacity: 1;
+        }
+
+        .date {
+            text-align: left;
+            font: normal normal medium 12px/29px Poppins;
+            letter-spacing: 0px;
+            color: #000000;
+            text-transform: uppercase;
+            opacity: 0.6;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        &:hover {
+            box-shadow: 0px 0px 20px #00000012;
+            cursor: pointer;
+        }
+
+    }
+}
+
+// contact-us-main
+
+.contact-us {
+
+
+    .contact-us-image {
+
+        .image {
+            position: relative;
+            height: 80%;
+
+
+            img {
+                opacity: 1;
+            }
+        }
+
+        .image {
+            h1 {
+                position: absolute;
+                top: 38%;
+                left: 5%;
+                margin-left: 15px;
+                font: normal bold 70px/119px Greycliff CF;
+                letter-spacing: 0;
+                color: #FFFFFF;
+                opacity: 1;
+                line-height: 1.25;
+                width: 600px;
+            }
+
+
+        }
+
+        .purple-image {
+            img {
+                position: absolute;
+                top: 51.90%;
+            }
+        }
+    }
+
+    .contact-us-detail {
+        margin-top: 50px;
+
+        h2 {
+            width: 48vw;
+        }
+    }
+
+    .contact-us-about {
+        display: flex;
+        margin-top: 3%;
+
+        img {
+            width: 400px;
+            height: 400px;
+            margin-left: 23%;
+        }
+
+        .contact-info {
+            display: flex;
+            gap:50px;
+            margin-left: 22%;
+
+            h1 {
+                text-align: left;
+                font: normal normal normal 15px/29px Poppins;
+                letter-spacing: 0px;
+                color: #000000;
+                text-transform: capitalize;
+                opacity: 0.6;
+            }
+
+            p {
+                text-align: left;
+                font: normal normal normal 15px/29px Poppins;
+                letter-spacing: 0px;
+                color: #000000;
+                text-transform: capitalize;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+// contact-us-appointment
+
+.contact-us-appointment{
+
+    padding-top: 120px;
+    position: absolute;
+    margin-top: -300px;
+    .appointment {
+        display: flex;
+        flex-direction: row;
+
+        .appointment-image img {
+            height: 700px;
+            width: 550px;
+            position: absolute;
+            top: 120px;
+            margin-left: 13.5% ;
+        }
+
+        .appointment-form {
+            margin-bottom: 10px;
+            margin-left: 95px;
+            
+            label {
+                display: block;
+                font-weight: bold;
+                margin-bottom: 5px;
+                margin-top: 20px;
+            }
+
+            input[type="text"] {
+                width: 200px;
+                padding: 8px;
+                border: 1px solid #ccc;
+                border-radius: 6px;
+                box-sizing: border-box;
+            }
+            input[type="textt"] {
+                width: 420px;
+                padding: 8px;
+                border: 1px solid #ccc;
+                border-radius: 6px;
+                box-sizing: border-box;
+            }
+
+            #phone {
+                width: 200px;
+                padding: 8px;
+                border: 1px solid #ccc;
+                border-radius: 6px;
+                box-sizing: border-box;
+            }
+        }
+
+        .first-input {
+            display: flex;
+            gap: 20px;
+
+        }
+
+        select {
+            height: 40px;
+            width: 420px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            height: 100px;
+            width: 420px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            box-sizing: border-box;
+        }
+
+        .submit-button {
+            margin-top: 20px;
+            background: #7F2854 0% 0% no-repeat padding-box;
+            border-radius: 10px;
+            height: 40px;
+            width: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font: normal normal medium 14px/19px Greycliff CF;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+        }
+
+    }
+    .location-image{
+        width: 85%;
+        margin-left:6.5%;
+        border: 1px solid #EDEDEE;
+        border-radius: 20px;
     }
 }

@@ -8,19 +8,19 @@
 
 @section('content')
 
-@include('components.header')
+@include('components.Header.header')
 
-@include('components.home-about-us')
+@include('components.Home.home-about-us')
 
-@include('components.home-services')
+@include('components.Home.home-services')
 
-@include('components.brands')
+@include('components.Home.brands')
 
-@include('components.events')
+@include('components.Home.events')
 
-@include('components.partnership')
+@include('components.Home.partnership')
 
-@include('components.footer')
+@include('components.Footer.footer')
 
 @endsection
 
