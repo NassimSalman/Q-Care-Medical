@@ -1,4 +1,5 @@
 <!-- TODO Make the products carousel and make the 2 divs change with each other -->
+
 <div class="department-products">
 
     <div>

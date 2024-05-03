@@ -1,4 +1,5 @@
 <!-- TODO Add to the input message an arrow -->
+
 <div id="contact-us" class="footer">
     <img class="image" src="/images/footer-background.png">
     <img class="logo" src="/images/colored-logo.svg">

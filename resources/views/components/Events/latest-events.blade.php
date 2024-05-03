@@ -1,4 +1,5 @@
 <!-- TODO Make the events carousel  -->
+
 <div class="latest-eve">
 
     <div class="events">
